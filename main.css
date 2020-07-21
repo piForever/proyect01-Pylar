@@ -1,0 +1,75 @@
+
+body {
+    background-color:  rgba(0,0,0,0.92);
+    }
+  
+
+  #logo {
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+    width: 113px;
+    height: 113px;
+    background-size: 113px 113px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50%;
+    margin-left: -56.5px;
+    display: initial;
+  }
+
+  @font-face {
+    font-family: 'SF Pro';
+    src: url(../SF-Font-Pro.dmg)
+    format('truetype');
+  }
+
+  #heading {
+    color: rgba(0,0,0,0.92);
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    text-align: center;
+    font-family: "SF Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+li{
+  list-style-type: none; 
+  margin: 4rem;
+  font-weight:bold; 
+}
+
+img {
+margin: 2rem;
+position: relative;
+display: none;
+}
+
+.input-group{
+  padding: 4rem 2rem;
+}
+
+#input{
+  border-radius: 2rem;
+
+}
+
+.btn {
+  border-style: none;
+}
+
+.btn-outline-secondary {
+  color: rgb(69, 180, 218);
+}
+
+
+
+
+
+ /* ver cambios para notebook: */
+  @media only screen and (min-width: 768px) {
+    .input-group{
+      padding: 4rem 15rem;
+    }
+    
+  }
